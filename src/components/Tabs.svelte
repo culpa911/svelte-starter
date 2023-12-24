@@ -5,6 +5,8 @@
     initTE,
     } from "tw-elements";
     import Content from "./Content.svelte";
+  import ProductShowcase from "./ProductShowcase.svelte";
+  import ProductShowcase_2 from "./ProductShowcase-2.svelte";
     onMount(() => {
     initTE({ Tab });
      });
@@ -26,7 +28,7 @@
       role="tab"
       aria-controls="tabs-home01"
       aria-selected="true"
-      >Home</a
+      >Overviews</a
     >
   </li>
   <li role="presentation" class="flex-auto text-center">
@@ -38,7 +40,7 @@
       role="tab"
       aria-controls="tabs-profile01"
       aria-selected="false"
-      >Profile</a
+      >Product showcase</a
     >
   </li>
   <li role="presentation" class="flex-auto text-center">
@@ -49,18 +51,6 @@
       data-te-target="#tabs-messages01"
       role="tab"
       aria-controls="tabs-messages01"
-      aria-selected="false"
-      >Messages</a
-    >
-  </li>
-  <li role="presentation" class="flex-auto text-center">
-    <a
-      href="#tabs-contact01"
-      class="disabled pointer-events-none my-2 block border-x-0 border-b-2 border-t-0 border-transparent bg-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-400 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent dark:text-neutral-600"
-      data-te-toggle="pill"
-      data-te-target="#tabs-contact01"
-      role="tab"
-      aria-controls="tabs-contact01"
       aria-selected="false"
       >Contact</a
     >
@@ -84,20 +74,13 @@ data-te-sticky-boundary="true">
     id="tabs-profile01"
     role="tabpanel"
     aria-labelledby="tabs-profile-tab01">
-    Tab 2 content
+    <ProductShowcase_2/>
   </div>
   <div
     class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
     id="tabs-messages01"
     role="tabpanel"
     aria-labelledby="tabs-profile-tab01">
-    Tab 3 content
-  </div>
-  <div
-    class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
-    id="tabs-contact01"
-    role="tabpanel"
-    aria-labelledby="tabs-contact-tab01">
-    Tab 4 content
+    <ProductShowcase/>
   </div>
 </div>

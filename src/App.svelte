@@ -14,7 +14,7 @@
 </script>
 
 <DarkMode />
-<div class="p-8 overflow-hidden bg-gray-50 dark:bg-gray-900">
+<div class="px-8 overflow-hidden bg-gray-50 dark:bg-gray-900">
   <Router {routes} />
 
   {#if data}

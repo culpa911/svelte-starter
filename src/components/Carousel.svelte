@@ -12,31 +12,8 @@
 
     import { link } from "svelte-spa-router";
     import urlSlug from "url-slug";
-    export let title, description, image, publishDate;
+    import { blogs } from "../data.js";
 
-    export const blogs = [
-  {
-    title: "17 Awesome Places to Visit in Germany",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image: "https://picsum.photos/id/1040/800/400",
-    publishDate: "2021/12/12"
-  },
-  {
-    title: "21 Essential Backpack Items for Hiking",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image: "https://picsum.photos/id/1018/800/400",
-    publishDate: "2021/11/17"
-  },
-  {
-    title: "10 Safety Tips Every Traveller Should Know",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image: "https://picsum.photos/id/206/800/400",
-    publishDate: "2021/09/06"
-  }
-];
 </script>
 
 <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
@@ -75,24 +52,28 @@
   <div
     class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     <!--First item-->
+    {#each blogs as blog, i}
     <div
       class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-active
       data-te-carousel-item
       style="backface-visibility: hidden">
-      <img
-        src={image}
-        class="block w-full"
-        alt="..." />
-      <div
-        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <a class="text-2xl" href={`/article/${urlSlug(title)}`} use:link>{title}</a>
-        <p>
-          {description}
-        </p>
-        <p>{publishDate}</p>
-      </div>
+      <a href={`/article/${urlSlug(blog.title)}`} use:link>
+        <img
+          src={blog.image}
+          class="block w-full"
+          alt="..." />
+        <div
+          class="absolute inset-x-[5%] bottom-10 hidden py-5 text-left text-white md:block">
+          <h1 class="text-2xl mb-4">{blog.title}</h1>
+          <p>
+            {blog.content}
+          </p>
+          <p>{blog.publishDate}</p>
+        </div>
+      </a>
     </div>
+    {/each}
   </div>
 
   <!--Carousel controls - prev item-->

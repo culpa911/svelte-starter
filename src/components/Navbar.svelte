@@ -14,8 +14,17 @@ onMount (() => {
 
 <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
 <nav
-  class="relative flex w-full items-center justify-between bg-neutral-50 py-2 text-neutral-600 shadow-lg dark:bg-neutral-700 dark:text-neutral-200 dark:shadow-black/5 lg:flex-wrap lg:justify-start"
+  class="relative flex w-full items-center justify-between bg-neutral-50 py-2 text-neutral-600 dark:bg-neutral-700 dark:text-neutral-200 lg:flex-wrap lg:justify-start"
   data-te-navbar-ref>
+  <div data-te-nav-item-ref>
+    <a
+      class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:px-2"
+      href="#!"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+      ><img src="public/geos-logo.png" alt="" class="w-36"></a
+    >
+  </div>
   <div class="px-6">
     <button
       class="leading-nonetransition-shadow border-0 bg-transparent py-3 text-xl duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
@@ -45,15 +54,6 @@ onMount (() => {
       id="navbarSupportedContentU"
       data-te-collapse-item>
       <ul class="mr-auto flex flex-row" data-te-navbar-nav-ref>
-        <li data-te-nav-item-ref>
-          <a
-            class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:px-2"
-            href="#!"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            >Regular link</a
-          >
-        </li>
         <li class="static" data-te-nav-item-ref data-te-dropdown-ref>
           <a
             class="flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:px-2"
