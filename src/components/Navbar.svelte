@@ -87,7 +87,7 @@ onMount (() => {
               <div class="grid gap-6 md:grid-cols-3">
                 <div>
                   <p class="block w-full pt-2 font-semibold uppercase">
-                    Services
+                    Oil and Gas
                   </p>
                   <div
                     class="relative my-4 overflow-hidden bg-cover bg-no-repeat"
@@ -136,7 +136,7 @@ onMount (() => {
                 </div>
                 <div>
                   <p class="block w-full pt-2 font-semibold uppercase">
-                    Laboratory
+                    Coal and Minerals
                   </p>
                   <div
                     class="relative my-4 overflow-hidden bg-cover bg-no-repeat"
@@ -191,7 +191,7 @@ onMount (() => {
                 </div>
                 <div>
                   <p class="block w-full pt-2 font-semibold uppercase">
-                    Software
+                    Geothermal
                   </p>
                   <div
                     class="relative my-4 overflow-hidden bg-cover bg-no-repeat"

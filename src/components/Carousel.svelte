@@ -54,18 +54,18 @@
     <!--First item-->
     {#each blogs as blog, i}
     <div
-      class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      class="relative float-left -mr-[100%] w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-active
       data-te-carousel-item
       style="backface-visibility: hidden">
       <a href={`/article/${urlSlug(blog.title)}`} use:link>
         <img
           src={blog.image}
-          class="block w-full"
+          class="block w-full bg-blend-darken"
           alt="..." />
         <div
           class="absolute inset-x-[5%] bottom-10 hidden py-5 text-left text-white md:block">
-          <h1 class="text-2xl mb-4">{blog.title}</h1>
+          <h1 class="text-3xl mb-4 font-semibold">{blog.title}</h1>
           <p>
             {blog.content}
           </p>

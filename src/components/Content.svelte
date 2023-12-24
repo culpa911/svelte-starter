@@ -29,7 +29,7 @@
               class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
 
               <h1 class="mb-4 text-3xl font-bold">
-                An intriguing title for an interesting article
+                Exploration for Oil and Gas Industry
               </h1>
 
               <p class="mb-6 flex items-center font-bold uppercase text-danger dark:text-danger-500">
@@ -43,135 +43,44 @@
               </p>
 
               <p class="mb-6">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
-                sapiente molestias consectetur. Fuga nulla officia error placeat
-                veniam, officiis rerum laboriosam ullam molestiae magni velit laborum
-                itaque minima doloribus eligendi! Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Optio sapiente molestias consectetur.
-                Fuga nulla officia error placeat veniam, officiis rerum laboriosam
-                ullam molestiae magni velit laborum itaque minima doloribus eligendi!
-              </p>
-
-              <p class="mb-6">
-                <strong>Optio sapiente molestias consectetur?</strong>
-              </p>
-
-              <p class="mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                architecto ex ab aut tempora officia libero praesentium, sint id
-                magnam eius natus unde blanditiis. Autem adipisci totam sit
-                consequuntur eligendi.
+                Exploration Division as one of the divisions at PT Geoservices, has started a fully integrated exploration services since the company was founded in 1971. We offer several services in geology, geophysics, mapping surveys, downhole measurements and borehole drilling including for:
               </p>
 
               <p
-                class="mb-6 rounded border-l-4 border-neutral-800 bg-neutral-100 p-2 dark:border-neutral-200 dark:bg-neutral-700">
-                <strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Optio odit consequatur porro sequi ab distinctio
-                modi. Rerum cum dolores sint, adipisci ad veritatis laborum eaque
-                illum saepe mollitia ut voluptatum.
+              class="mb-6 rounded border-l-4 border-neutral-800 bg-neutral-100 p-2 dark:border-neutral-200 dark:bg-neutral-700">
+              <strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Optio odit consequatur porro sequi ab distinctio
+              modi. Rerum cum dolores sint, adipisci ad veritatis laborum eaque
+              illum saepe mollitia ut voluptatum.
               </p>
 
-              <p class="mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                libero repellat molestiae aperiam laborum aliquid atque magni nostrum,
-                inventore perspiciatis possimus quia incidunt maiores molestias eaque
-                nam commodi! Magnam, labore.
-              </p>
-
-              <ul class="mb-6 list-inside list-disc">
-                <li>Lorem</li>
-                <li>Ipsum</li>
-                <li>Dolor</li>
-                <li>Sit</li>
-                <li>Amet</li>
-              </ul>
-
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                temporibus nulla voluptatibus accusantium sapiente doloremque.
-                Doloribus ratione laboriosam culpa. Ab officiis quidem, debitis
-                nostrum in accusantium dolore veritatis eius est?
-              </p>
             </section>
             <!-- Section: Design Block -->
           </div>
           <!-- Container for demo purpose -->
         </section>
-        <section id="example-2">
-          <h3 class="pb-3 pt-5 text-xl font-semibold">Section 2</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-        </section>
-        <section id="example-3">
-          <h3 class="pb-3 pt-5 text-xl font-semibold">Section 3</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <section id="example-sub-A">
-            <h3 class="pb-3 pt-5 text-xl font-semibold">Subsection A</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Labore earum natus vel minima quod error maxime, molestias ut.
-              Fuga dignissimos nisi nemo necessitatibus quisquam obcaecati
-              et reiciendis quaerat accusamus numquam.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Labore earum natus vel minima quod error maxime, molestias ut.
-              Fuga dignissimos nisi nemo necessitatibus quisquam obcaecati
-              et reiciendis quaerat accusamus numquam.
+        <section class="container my-4 mx-auto md:px-6 text-justify">
+          <section id="example-3">
+            <h3 class="pb-3 pt-5 text-xl font-semibold">Petroleum Exploration</h3>
+            <p>     
+              Participation in various stages of hydrocarbon exploration by PT GEOSERVICES started in 1977 in Eastern Indonesia. In addition to offer the services of Indonesian geologists, from our own staff as well as those from professional associates, we are also in a position to recruit overseas specialists to meet our Clients’ requirements.
             </p>
           </section>
-          <section id="example-sub-B">
-            <h3 class="pb-3 pt-5 text-xl font-semibold">Subsection B</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Labore earum natus vel minima quod error maxime, molestias ut.
-              Fuga dignissimos nisi nemo necessitatibus quisquam obcaecati
-              et reiciendis quaerat accusamus numquam.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Labore earum natus vel minima quod error maxime, molestias ut.
-              Fuga dignissimos nisi nemo necessitatibus quisquam obcaecati
-              et reiciendis quaerat accusamus numquam.
-            </p>
-          </section>
+            <section id="scope-works">
+              <h3 class="pt-4 text-xl font-semibold">Scope of Works</h3>
+              <p class="pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt similique eaque dicta possimus maiores perferendis quisquam optio nostrum, quibusdam dignissimos blanditiis officia? Non nemo mollitia, a distinctio ab cum eligendi error nobis repellendus ipsam, laudantium, ipsum qui quos ex eveniet iure quia harum rerum quam maxime ratione id ut voluptate!</p>
+              
+              <ol class="ml-8 list-decimal pt-4">
+                <li>Data Processing</li>
+                <li>Drilling Services</li>
+                <li>Geological Services</li>
+                <li>Geophysical Services</li>
+                <li>Geophysical Logging</li>
+                <li>Geodesy/Topographical Services</li>
+              </ol>
+            </section>
         </section>
-        <section id="example-4">
-          <h3 class="pb-3 pt-5 text-xl font-semibold">Section 4</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-        </section>
+
       </div>
     </div>
   
@@ -194,14 +103,6 @@
               class="bg-transparent px-[5px] text-neutral-600 shadow-none dark:text-neutral-200"
               href="#example-2"
               >Section 2</a
-            >
-          </li>
-          <li class="py-1">
-            <a
-              data-te-nav-link-ref
-              class="bg-transparent px-[5px] text-neutral-600 shadow-none dark:text-neutral-200"
-              href="#example-3"
-              >Section 3</a
             >
             <ul data-te-nav-list-ref class="pl-3">
               <li class="py-1">
@@ -226,9 +127,27 @@
             <a
               data-te-nav-link-ref
               class="bg-transparent px-[5px] text-neutral-600 shadow-none dark:text-neutral-200"
-              href="#example-4"
-              >Section 4</a
+              href="#example-3"
+              >Section 3</a
             >
+            <ul data-te-nav-list-ref class="pl-3">
+              <li class="py-1">
+                <a
+                  data-te-nav-link-ref
+                  class="bg-transparent px-[5px] text-neutral-600 shadow-none dark:text-neutral-200"
+                  href="#example-sub-A2"
+                  >Subsection A</a
+                >
+              </li>
+              <li>
+                <a
+                  data-te-nav-link-ref
+                  class="bg-transparent px-[5px] text-neutral-600 shadow-none dark:text-neutral-200"
+                  href="#example-sub-B2"
+                  >Subsection B</a
+                >
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

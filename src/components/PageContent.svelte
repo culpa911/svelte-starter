@@ -15,13 +15,13 @@
 <!--Tabs navigation-->
 <div class="grid grid-cols-6 gap-8">
     <ul
-      class="mr-4 list-none pl-0 col-span-1 bg-gradient-to-tr from-blue-700 to-blue-800 min-h-[800px] rounded-md text-left"
+      class="mr-4 list-none pl-0 col-span-1 bg-gradient-to-tr from-blue-500 to-blue-800 min-h-[800px] rounded-md"
       role="tablist"
       data-te-nav-ref>
-      <li role="presentation" class="flex-grow text-center">
+      <li role="presentation" class="flex-grow text-left">
         <a
           href="#tabs-home03"
-          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-100 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-md font-bold uppercase leading-tight text-neutral-100 hover:scale-95 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
           data-te-toggle="pill"
           data-te-target="#tabs-home03"
           data-te-nav-active
@@ -31,10 +31,10 @@
           >Exploration</a
         >
       </li>
-      <li role="presentation" class="flex-grow text-center">
+      <li role="presentation" class="flex-grow text-left">
         <a
           href="#tabs-profile03"
-          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-100 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-md font-bold uppercase leading-tight text-neutral-100 hover:scale-95 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
           data-te-toggle="pill"
           data-te-target="#tabs-profile03"
           role="tab"
@@ -43,10 +43,10 @@
           >Laboratory</a
         >
       </li>
-      <li role="presentation" class="flex-grow text-center">
+      <li role="presentation" class="flex-grow text-left">
         <a
           href="#tabs-messages03"
-          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-100 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-md font-bold uppercase leading-tight text-neutral-100 hover:scale-95 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
           data-te-toggle="pill"
           data-te-target="#tabs-messages03"
           role="tab"
@@ -55,10 +55,10 @@
           >Software</a
         >
       </li>
-      <li role="presentation" class="flex-grow text-center">
+      <li role="presentation" class="flex-grow text-left">
         <a
           href="#tabs-contact03"
-          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-100 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+          class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-md font-bold uppercase leading-tight text-neutral-100 hover:scale-95 hover:isolate hover:border-transparent hover:bg-blue-500 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-blue-300 data-[te-nav-active]:font-bold dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
           data-te-toggle="pill"
           data-te-target="#tabs-contact03"
           role="tab"
